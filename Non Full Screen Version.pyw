@@ -30,23 +30,23 @@ from pygame.locals import *
 
 # This class is the blue team class.
 class player():
-    plU = pygame.image.load("blueU.png")
-    plD = pygame.image.load("blueD.png")
-    plL = pygame.image.load("blueL.png")
-    plR = pygame.image.load("blueR.png")
-    plUR = pygame.image.load("blueUR.png")
-    plUL = pygame.image.load("blueUL.png")
-    plDL = pygame.image.load("blueDL.png")
-    plDR = pygame.image.load("blueDR.png")
+    plU = pygame.image.load("Images/blueU.png")
+    plD = pygame.image.load("Images/blueD.png")
+    plL = pygame.image.load("Images/blueL.png")
+    plR = pygame.image.load("Images/blueR.png")
+    plUR = pygame.image.load("Images/blueUR.png")
+    plUL = pygame.image.load("Images/blueUL.png")
+    plDL = pygame.image.load("Images/blueDL.png")
+    plDR = pygame.image.load("Images/blueDR.png")
     ### Load Active player images below, inactive above
-    plAU = pygame.image.load("blueAU.png")
-    plAD = pygame.image.load("blueAD.png")
-    plAL = pygame.image.load("blueAL.png")
-    plAR = pygame.image.load("blueAR.png")
-    plAUR = pygame.image.load("blueAUR.png")
-    plAUL = pygame.image.load("blueAUL.png")
-    plADL = pygame.image.load("blueADL.png")
-    plADR = pygame.image.load("blueADR.png")
+    plAU = pygame.image.load("Images/blueAU.png")
+    plAD = pygame.image.load("Images/blueAD.png")
+    plAL = pygame.image.load("Images/blueAL.png")
+    plAR = pygame.image.load("Images/blueAR.png")
+    plAUR = pygame.image.load("Images/blueAUR.png")
+    plAUL = pygame.image.load("Images/blueAUL.png")
+    plADL = pygame.image.load("Images/blueADL.png")
+    plADR = pygame.image.load("Images/blueADR.png")
 
     yupperLimit = 64
     ylowerLimit = 780
@@ -1311,23 +1311,23 @@ class player():
 
 # THe red team class. Symmetric and Mirroring the Blue team player class
 class OPlayer():
-    plU = pygame.image.load("redU.png")
-    plD = pygame.image.load("redD.png")
-    plL = pygame.image.load("redL.png")
-    plR = pygame.image.load("redR.png")
-    plUR = pygame.image.load("redUR.png")
-    plUL = pygame.image.load("redUL.png")
-    plDL = pygame.image.load("redDL.png")
-    plDR = pygame.image.load("redDR.png")
+    plU = pygame.image.load("Images/redU.png")
+    plD = pygame.image.load("Images/redD.png")
+    plL = pygame.image.load("Images/redL.png")
+    plR = pygame.image.load("Images/redR.png")
+    plUR = pygame.image.load("Images/redUR.png")
+    plUL = pygame.image.load("Images/redUL.png")
+    plDL = pygame.image.load("Images/redDL.png")
+    plDR = pygame.image.load("Images/redDR.png")
     ### Load Active player images below, inactive above
-    plAU = pygame.image.load("redAU.png")
-    plAD = pygame.image.load("redAD.png")
-    plAL = pygame.image.load("redAL.png")
-    plAR = pygame.image.load("redAR.png")
-    plAUR = pygame.image.load("redAUR.png")
-    plAUL = pygame.image.load("redAUL.png")
-    plADL = pygame.image.load("redADL.png")
-    plADR = pygame.image.load("redADR.png")
+    plAU = pygame.image.load("Images/redAU.png")
+    plAD = pygame.image.load("Images/redAD.png")
+    plAL = pygame.image.load("Images/redAL.png")
+    plAR = pygame.image.load("Images/redAR.png")
+    plAUR = pygame.image.load("Images/redAUR.png")
+    plAUL = pygame.image.load("Images/redAUL.png")
+    plADL = pygame.image.load("Images/redADL.png")
+    plADR = pygame.image.load("Images/redADR.png")
 
 
     yupperLimit = 64
@@ -2601,7 +2601,7 @@ class OPlayer():
 # The soccer ball class
 class Ball():
 
-    ball = pygame.image.load("Soccer-Ball-icon.png")
+    ball = pygame.image.load("Images/Soccer-Ball-icon.png")
     # load up the ball
 
 
@@ -3525,12 +3525,12 @@ def findHighScore():
 pygame.init()
 size = (1200, 820) # window size
 pygame.display.set_caption('FIFO 16')
-screen = pygame.display.set_mode(size,pygame.FULLSCREEN)
+screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
 ##########################################
-bg = pygame.image.load("ground.png").convert()
-menu = pygame.image.load("Menu.png").convert()
-helpMenu = pygame.image.load("Help.png").convert()
+bg = pygame.image.load("Images/ground.png").convert()
+menu = pygame.image.load("Images/Menu.png").convert()
+helpMenu = pygame.image.load("Images/Help.png").convert()
 #####################################################
 MenuFont = pygame.font.SysFont("monospace", 30) # initialize font for high score 
 
