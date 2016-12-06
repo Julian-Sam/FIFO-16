@@ -1,5 +1,5 @@
 WELCOME TO FIFO 16
-EA SPORTS. CHALLENGE EVERYTHING
+EJ SPORTS. CHALLENGE EVERYTHING
 
 MADE BY JULIAN SAM
 
@@ -8,7 +8,10 @@ SPECIAL THANKS TO:
 	ROHITH K. PILLAI
 
 INSTRUCTIONS TO RUN PROPERLY
-1) Have Pygame Installed
+1) Run FIFO 16.EXE (Only works on Windows Machines).
+
+OR:
+1) Have Pygame Installed. Run the python files in the folder Python Executables.
 2) Fonts will not render properly unless the machine has 'monospace' 
    font installed. Most machines have this by default.
 
